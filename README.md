@@ -10,10 +10,9 @@ Use these urls to work with api:
 
 ## Config
 
-Fill these required fields, In order to work with system:
+Fill these required variables in .env.example and change it to .env:
 
-`CLOUDFLARE_API_KEY=""
-CLOUDFLARE_API_EMAIL=""`
+`CLOUDFLARE_API_KEY=""`
+`CLOUDFLARE_API_EMAIL=""`
 
-
-### WIP
+### WIP: Work in progress...
