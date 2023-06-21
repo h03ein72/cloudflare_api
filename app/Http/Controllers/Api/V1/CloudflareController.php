@@ -4,7 +4,6 @@ namespace App\Http\Controllers\Api\V1;
 
 use App\Http\Controllers\Controller;
 use App\Interfaces\CloudflareInterface;
-use App\Repositories\CloudflareRepository;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
 
@@ -12,7 +11,7 @@ class CloudflareController extends Controller
 {
     private CloudflareInterface $repository;
 
-    public function __construct(CloudflareRepository $repository)
+    public function __construct(CloudflareInterface $repository)
     {
         $this->repository = $repository;
     }
