@@ -2,11 +2,13 @@
 
 Use these urls to work with api:
 
-- {host}/v1/getDomains
-- {host}/v1/getDns
-- {host}/v1/editDns
-- {host}/v1/deleteDns
-- {host}/v1/setDns
+- {{base_url}}/v1/getDns
+- {{base_url}}/v1/setDns
+- {{base_url}}/v1/editDns
+- {{base_url}}/v1/deleteDns
+- {{base_url}}/v1/getDomains
+- {{base_url}}/v1/addDomain
+
 
 ## Config
 
